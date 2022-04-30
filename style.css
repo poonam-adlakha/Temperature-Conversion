@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Montserrat:wght@100&family=Pacifico&family=Pangolin&display=swap');
+
+body {
+  background: black;
+  color: aliceblue;
+  font-family: 'Montserrat';
+}
+
+.container {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;}
+
+h2 {
+  font-family:Arial, Helvetica, sans-serif;
+  color: rgb(24, 22, 22);
+}
+.box {
+  margin-top: 5%;
+  width: 25em;
+  height: 20em;
+  background: linear-gradient(rgb(211, 211, 75), white);
+  border: solid 5px rgb(225, 116, 27);
+  border-radius: 1rem;
+  text-align: center;
+  color: black;
+}
+
+#value {
+  transform: translateX(-25%);
+}
+
+#value1 {
+  border-radius: 0.5rem;
+  border: 3px solid rgb(213, 118, 108);
+  transform: translateY(-160%)translateX(50%);
+  height: 6%;
+}
+
+#value2 {
+  transform: translateX(-12%)translateY(-145%);
+}
+
+#from {
+  height: 8%;
+  border-radius: 0.5rem;
+  border: 3px solid rgb(213, 118, 108);
+  transform: translateY(-290%)translateX(50%);
+}
+
+#to {
+  height: 8%;
+  border-radius: 0.5rem;
+  border: 3px solid rgb(213, 118, 108);
+  transform: translateY(-430%)translateX(157%)
+}
+
+#value3 {
+  transform: translateX(-9%)translateY(-290%);
+}
+
+#calculate {
+  height: 9%;
+  border-radius: 0.5rem;
+  background: linear-gradient(rgb(24, 81, 130), rgba(79, 74, 122, 0.715));
+  color: aliceblue;
+  font-size: 15px;
+  transform: translateY(-210%)translateX(80%);
+}
+
+#value4 {
+  transform: translateX(-9%)translateY(-280%);
+}
+
+#displaybox1 {
+  height: 6%;
+  border-radius: 0.5rem;
+  border: 3px solid rgb(213, 118, 108);
+  transform: translateY(-60%)translateX(-12%);
+}
