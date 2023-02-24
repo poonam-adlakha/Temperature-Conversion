@@ -20,8 +20,10 @@ h2 {
   margin-top: 5%;
   width: 25em;
   height: 20em;
-  background: linear-gradient(rgb(211, 211, 75), white);
-  border: solid 5px rgb(225, 116, 27);
+  background: #e0e0e0;
+  box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff; 
+
   border-radius: 1rem;
   text-align: center;
   color: black;
